@@ -595,8 +595,29 @@ nav a{
     
 }
 
+.mission{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
+.mission h3,.valorese h3{
+    font-size: 30px !important;
+    font-family: 'Exo';
+}
+
+.mission p{
+    font-size: 18px;
+    line-height: 25px;
+}
+
 .valorese{
     width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .valorese figure{
@@ -605,12 +626,12 @@ nav a{
 }
 
 .valorese img{
-    width: 80%;
+    width: 100%;
     
 }
 .txt-hed{
     background: #21212a;
-    height: 100px;
+    height: 180px;
     color: #fff;
     display: flex;    
     align-items: center;
@@ -619,6 +640,7 @@ nav a{
     letter-spacing: 1px;
     line-height: 35px;
     padding: 10px;
+    margin-bottom: 25px;
 }
 
 .txt-hed p{
